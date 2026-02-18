@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    justify-content:center;
+    margin-top:55px;
+}
+.container{
+    width:500px;
+    height:450px;
+    background-color:lightskyblue;
+    display:flex;
+    gap:20px;
+    align-items:center;
+    flex-direction:column;
+    border-radius:15px;
+}
+#userName{
+    width:200px;
+    height:30px;
+    border-radius:8px;
+}
+#password{
+    width:200px;
+    height:30px;
+    border-radius:8px;
+}
+#btn{
+    width:90px;
+    height:30px;
+    border-radius:25px;
+    background-color:lightgoldenrodyellow;
+    color:black;
+    border:2px solid black;
+}
+#btn:hover{
+    background-color:lightblue;
+    color:white;
+    transition:0.3s ease;
+}

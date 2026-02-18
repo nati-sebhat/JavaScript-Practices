@@ -1,0 +1,41 @@
+body{
+    display:flex;
+    justify-content:center;
+    margin-top:55px;
+    
+}
+#container{
+    background-color:lightgray;
+    width:500px;
+    height:450px;
+    border-radius:25px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+    padding-top:50px;
+    
+    
+    
+}
+#userInput{
+    border-radius:5px;
+    width:200px;
+    height:30px;
+}
+#btn{
+    
+    width:110px;
+    height:30px;
+    background-color:lightblue;
+    border-radius:25px;
+    color:white;
+}
+#btn:hover{
+    background-color:lightgray;
+    color:black;
+    transition:0.5s ease;
+}
+#grade{
+    color:black;
+}
