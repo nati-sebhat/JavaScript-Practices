@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    justify-content:center;
+    
+    margin-top:100px;
+    background-color:rgb(3, 12, 43);
+}
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:40px;
+    margin-top:10px;
+}
+#input{
+    width:370px;
+    height:60px;
+    border-radius:10px;
+}
+.btn{
+    width:60px;
+    height:40px;
+    border-radius:10px;
+}
+.btn:hover{
+   
+    transition:0.3s ease;
+    border:1px solid black;
+    box-shadow:0 15px 30px rgb(22, 25, 179);
+}
+#input:hover{
+    border:2px solid lightgrey;
+    transition:0.3s ease;
+    box-shadow:0 15px 30px rgb(22, 25, 179);
+}
+.operator{
+    background-color:rgb(65, 70, 117);
+    color:white;
+}
