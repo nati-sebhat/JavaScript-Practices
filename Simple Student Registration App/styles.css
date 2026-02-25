@@ -1,0 +1,39 @@
+body{
+    background-color:lightsteelblue;
+    display:flex;
+    justify-content:center;
+    margin-top:60px;
+    
+}
+.container{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    padding-top:50px;
+    flex-direction:column;
+    background-color:lightgrey;
+    width:500px;
+    height:450px;
+    border-radius:20px;
+    
+}
+h2{
+    margin-bottom:30px;
+}
+#input{
+    width:200px;
+    margin-bottom:20px;
+    border-radius:5px;
+    
+}
+#btn{
+    width:90px;
+    border-radius:20px;
+    margin-bottom:30px;
+    background-color: lightseagreen;
+}
+#btn:hover{
+    background-color:lightsteelblue;
+    transition:0.3s ease;
+    
+}
